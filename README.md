@@ -1,24 +1,24 @@
 # Smart Portfolio Analyzer & Backtesting System (R)
 
-Overview
+## Overview
 - Downloads stock data, computes indicators, backtests strategies, and analyzes portfolios.
 
-Install
+## Install
 
-Install required packages:
+### Install required packages:
 
 ```r
 install.packages(c("quantmod","tidyquant","TTR","PerformanceAnalytics","ggplot2","shiny","testthat","xts","zoo","reshape2"))
 ```
 
-Run app:
+### Run app:
 
 ```r
 # from project root
 shiny::runApp()
 ```
 
-Run tests:
+### Run tests:
 
 ```r
 testthat::test_dir("tests")
