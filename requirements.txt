@@ -1,0 +1,14 @@
+quantmod
+tidyquant
+TTR
+PerformanceAnalytics
+ggplot2
+shiny
+testthat
+xts
+zoo
+reshape2
+quadprog
+rmarkdown
+knitr
+zip
